@@ -1,0 +1,19 @@
+using System;
+// DO WHILE LOOP
+namespace Coding.Exercise
+{
+    public class Exercise
+    {
+        public static string RepeatCharacter(char character, int targetLength)
+        {
+            //your code goes here
+            string result = "";
+            do
+            {
+                result += character;
+            }
+            while (result.Length < targetLength);
+            return result;
+        }
+    }
+}
