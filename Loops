@@ -17,3 +17,21 @@ namespace Coding.Exercise
         }
     }
 }
+//FOR LOOP
+
+namespace Coding.Exercise
+{
+    public class Exercise
+    {
+        public static int Factorial(int number)
+        {
+            //your code goes here
+            int result = 1;
+            for(int i = 1; i <= number; i++)
+            {
+                result *= i;
+            }
+            return result;
+        }
+    }
+}
